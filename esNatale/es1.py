@@ -30,7 +30,7 @@ def main():
         dim = 8
     elif scelta == 2:
         dim = 20
-    elif scelta != 1 or scelta != 0:
+    elif scelta != 1 and scelta != 0:
         raise Exception("ERRORE: scelta errata")    
     generaPassword(dim)
        
